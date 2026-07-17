@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <section label="Contenedor principal" class="flex h-screen w-full bg-gray-100">
+      <nav aria-label="Barra lateral" class="bg-blue-900 p-4 w-1/5 font-sans text-white">
+        <h1 class="font-bold m-2 text-center">Personal branding</h1>
+        <nav aria-label="Menú de navegación" class="m-3 text-center">
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Resultados</a></li>
+            <li><a href="#">Drivers</a></li>
+            <li><a href="#">Detalles</a></li>
+          </ul>
+        </nav>
+        <article aria-label="Creador de contenido">
+          <img src="#" alt="Iniciales del creador de contenido" class="rounded-full w-12 h-12 mx-auto"/>
+          <h2 class="font-bold text-center">Jose Carlos</h2>
+        </article>
+      </nav>
+
+      <main aria-label="Contenido principal" class="w-4/5 p-4">
+        <section aria-label="Dashboard y gestión de entradas y salidas de colaboradores" class="flex p-3">
+          <article aria-label="Título y pequeño resumen" class="w-1/2">
+            <h2 class="font-bold">My Dashboard Personal</h2>
+            <p>Registro de entradas y salidas de colaboradores</p>
+          </article>
+          <article class="w-1/2 flex justify-end gap-4">
+            <button type="button" class="bg-white text-black px-2 py-2 border-2 rounded w-1/3 text-sm text-center">Descargar informe</button>
+            <button type="button" class="bg-blue-500 text-white px-2 py-2 rounded w-1/3 text-sm text-center">Nueva colaboración</button>
+          </article>
+        </section>
+
+        <section aria-label="Indicadores de resultados" class="grid grid-cols-4 gap-4 p-3">
+          <article class="bg-white p-4 rounded">
+            <h3 class="text-gray-700">Total de ingresos</h3>
+            <section >
+              <p class="text-2xl font-bold">1,234</p>
+              <p class="text-green-400">% vs el mes pasado</p>
+            </section>
+          </article>
+          <article class="bg-white p-4 rounded">
+            <h3 class="text-gray-700">Mis ahorros</h3>
+            <section >
+              <p class="text-2xl font-bold">1,234</p>
+              <p class="text-green-400">% vs el mes pasado</p>
+            </section>
+          </article>
+          <article class="bg-white p-4 rounded">
+            <h3 class="text-gray-700">Impacto en la audiencia</h3>
+            <section >
+              <p class="text-2xl font-bold">1,234</p>
+              <p class="text-green-400">% vs el mes pasado</p>
+            </section>
+          </article>
+          <article class="bg-white p-4 rounded">
+            <h3 class="text-gray-700">Media de captación</h3>
+            <section >
+              <p class="text-2xl font-bold">1,234</p>
+              <p class="text-green-400">% vs el mes pasado</p>
+            </section>
+          </article>
+        </section>
+
+        <section aria-label="Seccion 3">
+          <div></div>
+          <div></div>
+        </section>
+
+        <section aria-label="Seccion 4">
+          <div></div>
+          <div></div>
+        </section>
+
+        <section aria-label="Seccion 5">
+          <div></div>
+          <div></div>
+        </section>
+      </main>
+    </section>
+  </body>
+</html>
